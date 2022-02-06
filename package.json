@@ -31,6 +31,7 @@
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
     "eslint-plugin-jsdoc": "^37.7.1",
+    "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
   "peerDependencies": {
@@ -40,6 +41,7 @@
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
     "eslint-plugin-jsdoc": "^37.7.1",
+    "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
   "publishConfig": {
