@@ -24,6 +24,12 @@
     "url": "https://github.com/hendrickson-tyler/eslint-config/issues"
   },
   "homepage": "https://github.com/hendrickson-tyler/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.8.0"
+  },
   "publishConfig": {
     "access": "public"
   }
