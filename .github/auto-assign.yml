@@ -1,0 +1,14 @@
+name: Auto Assign
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+jobs:
+  # Automatically adds the PR creator as the assignee on the PR.
+  auto-assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: toshimaru/auto-author-assign@v1.2.0
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
