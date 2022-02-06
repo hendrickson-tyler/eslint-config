@@ -25,16 +25,22 @@
   },
   "homepage": "https://github.com/hendrickson-tyler/eslint-config#readme",
   "devDependencies": {
+    "@angular-eslint/eslint-plugin": "^13.0.1",
+    "@angular-eslint/eslint-plugin-template": "^13.0.1",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
-    "eslint-plugin-jsdoc": "^37.7.1"
+    "eslint-plugin-jsdoc": "^37.7.1",
+    "eslint-plugin-rxjs-angular": "^2.0.0"
   },
   "peerDependencies": {
+    "@angular-eslint/eslint-plugin": "^13.0.1",
+    "@angular-eslint/eslint-plugin-template": "^13.0.1",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
-    "eslint-plugin-jsdoc": "^37.7.1"
+    "eslint-plugin-jsdoc": "^37.7.1",
+    "eslint-plugin-rxjs-angular": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"
