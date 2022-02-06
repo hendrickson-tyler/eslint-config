@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - beta
 jobs:
   # Uses sematic-release to determine version and publishes to NPM
   release:
