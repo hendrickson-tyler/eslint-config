@@ -2,6 +2,6 @@ module.exports = {
   "extends": [
     "plugin:@nativescript/recommended",
   ],
-  "plugins": [],
+  "plugins": ["@nativescript"],
   "rules": {}
 };
