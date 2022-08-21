@@ -28,6 +28,13 @@ From the root folder of your project, install the package with the following com
 npm i @hendrickson-tyler/eslint-config --save-dev
 ```
 
+## Angular Support
+
+| Package Version    | Angular Version Support |
+| ------------------ | ----------------------- |
+| 1.x.x              | 13                      |
+| 2.x.x              | 14                      |
+
 ## Usage
 
 Once the package is installed, add the desired configs to the `"extends"` section of the `eslintrc.json` in the root of your project:
@@ -68,7 +75,7 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
 ```javascript
 "devDependencies": {
     ...
-    "@hendrickson-tyler/eslint-config": "^1.0.0",
+    "@hendrickson-tyler/eslint-config": "^2.0.0",
     ...
 }
 ```
