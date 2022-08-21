@@ -30,10 +30,10 @@ npm i @hendrickson-tyler/eslint-config --save-dev
 
 ## Angular Support
 
-| Major Version      | Angular Support |
-| ------------------ | --------------- |
-| 1.x.x              | 13              |
-| 2.x.x              | 14              |
+| Package Version    | Angular Version Support |
+| ------------------ | ----------------------- |
+| 1.x.x              | 13                      |
+| 2.x.x              | 14                      |
 
 ## Usage
 
