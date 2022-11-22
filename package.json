@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/hendrickson-tyler/eslint-config#readme",
   "devDependencies": {
-    "@angular-eslint/eslint-plugin": "^14.0.0",
+    "@angular-eslint/eslint-plugin": "^15.0.0",
     "@angular-eslint/eslint-plugin-template": "^15.0.0",
     "@nativescript/eslint-plugin": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
@@ -36,7 +36,7 @@
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular-eslint/eslint-plugin": "^14.0.0",
+    "@angular-eslint/eslint-plugin": "^15.0.0",
     "@angular-eslint/eslint-plugin-template": "^15.0.0",
     "@nativescript/eslint-plugin": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
