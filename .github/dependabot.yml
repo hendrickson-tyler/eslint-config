@@ -11,3 +11,7 @@ updates:
       interval: "daily"
       time: "09:00"
       timezone: "US/Mountain"
+    ignore:
+      # Angular packages to be updated manually
+      - dependency-name: '@angular-eslint/*'
+        update-types: ['version-update:semver-major']
