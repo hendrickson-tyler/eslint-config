@@ -1,5 +1,7 @@
 # Lint Rules
 
+[![CodeQL](https://github.com/hendrickson-tyler/eslint-config/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/hendrickson-tyler/eslint-config/actions/workflows/codeql-analysis.yml)
+
 ## Description
 
 This package contains a set of ESLint configs for a variety of languages, libraries, and frameworks. This is meant to ensure each of my personal projects has the same set of rules to keep them consistent. You are welcome to use these for your own projects.
