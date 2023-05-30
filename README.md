@@ -35,6 +35,7 @@ npm i @hendrickson-tyler/eslint-config --save-dev
 | 1.x.x              | 13                      |
 | 2.x.x              | 14                      |
 | 3.x.x              | 15                      |
+| 4.x.x              | 16                      |
 
 ## Usage
 
@@ -76,7 +77,7 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
 ```javascript
 "devDependencies": {
     ...
-    "@hendrickson-tyler/eslint-config": "^3.0.0",
+    "@hendrickson-tyler/eslint-config": "^4.0.0",
     ...
 }
 ```
