@@ -35,7 +35,6 @@ module.exports = {
     "jsdoc/empty-tags": "error",
     "jsdoc/implements-on-classes": "error",
     "jsdoc/match-description": "error",
-    "jsdoc/newline-after-description": "error",
     "jsdoc/no-bad-blocks": "warn",
     "jsdoc/no-types": "error",
     "jsdoc/require-description": "error",
