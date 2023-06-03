@@ -64,6 +64,7 @@ module.exports = {
     "jsdoc/require-returns": "error",
     "jsdoc/require-returns-check": "error",
     "jsdoc/require-returns-description": "error",
+    "jsdoc/tag-lines": ["error", "any", { "startLines": 1 }],
     "jsdoc/require-yields-check": "error",
   }
 };
