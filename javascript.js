@@ -7,10 +7,6 @@ module.exports = {
     "jsdoc"
   ],
   "rules": {
-    "brace-style": [
-      "error",
-      "1tbs"
-    ],
     "eqeqeq": "error",
     "keyword-spacing": [2, { "before": true, "after": true }],
     "lines-between-class-members": "error",
