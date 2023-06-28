@@ -27,10 +27,9 @@
   "devDependencies": {
     "@angular-eslint/eslint-plugin": "^16.0.0",
     "@angular-eslint/eslint-plugin-template": "^16.0.0",
-    "@nativescript/eslint-plugin": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
-    "eslint": "^8.8.0",
+    "eslint": "^8.43.0",
     "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
@@ -38,10 +37,9 @@
   "peerDependencies": {
     "@angular-eslint/eslint-plugin": "^16.0.0",
     "@angular-eslint/eslint-plugin-template": "^16.0.0",
-    "@nativescript/eslint-plugin": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
-    "eslint": "^8.8.0",
+    "eslint": "^8.43.0",
     "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
