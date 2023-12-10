@@ -4,7 +4,7 @@
   "description": "An opinionated, personalized collection of ESLint configs for different languages and frameworks",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hendrickson-tyler/eslint-config.git"
+    "url": "git+ssh://git@github.com/hendrickson-tyler/eslint-config.git"
   },
   "keywords": [
     "lint",
