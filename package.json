@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
-    "eslint-plugin-jsdoc": "^47.0.2",
+    "eslint-plugin-jsdoc": "^48.0.2",
     "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
-    "eslint-plugin-jsdoc": "^47.0.2",
+    "eslint-plugin-jsdoc": "^48.0.2",
     "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
