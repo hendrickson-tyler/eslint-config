@@ -27,20 +27,20 @@
   "devDependencies": {
     "@angular-eslint/eslint-plugin": "^17.0.0",
     "@angular-eslint/eslint-plugin-template": "^17.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0 || ^7.0.0",
+    "@typescript-eslint/parser": "^6.0.0 || ^7.0.0",
     "eslint": "^8.0.0",
-    "eslint-plugin-jsdoc": "^48.0.2",
+    "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
   "peerDependencies": {
     "@angular-eslint/eslint-plugin": "^17.0.0",
     "@angular-eslint/eslint-plugin-template": "^17.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0 || ^7.0.0",
+    "@typescript-eslint/parser": "^6.0.0 || ^7.0.0",
     "eslint": "^8.0.0",
-    "eslint-plugin-jsdoc": "^48.0.2",
+    "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-rxjs": "^5.0.2",
     "eslint-plugin-rxjs-angular": "^2.0.0"
   },
