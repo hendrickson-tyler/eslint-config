@@ -32,12 +32,12 @@ npm i @hendrickson-tyler/eslint-config --save-dev
 
 ## Angular Support
 
-| Package Version    | Angular Version Support |
-| ------------------ | ----------------------- |
-| 1.x.x              | 13                      |
-| 2.x.x              | 14                      |
-| 3.x.x              | 15                      |
-| 4.x.x              | 16                      |
+| Package Version | Angular Version Support |
+| --------------- | ----------------------- |
+| 1.x.x           | 13                      |
+| 2.x.x           | 14                      |
+| 3.x.x           | 15                      |
+| 4.x.x           | 16                      |
 
 For Angular 17 and above, the version number will match the Angular version number.
 

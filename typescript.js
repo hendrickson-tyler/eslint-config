@@ -1,9 +1,6 @@
 module.exports = {
-  "extends": [
-    "./javascript",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "rules": {
+  extends: ["./javascript", "plugin:@typescript-eslint/recommended"],
+  rules: {
     "no-shadow": "off",
     "jsdoc/require-param-type": "off",
     "jsdoc/require-property-type": "off",
@@ -17,9 +14,9 @@ module.exports = {
     "@typescript-eslint/naming-convention": [
       "error",
       {
-        "selector": "enumMember",
-        "format": ["PascalCase"]
-      }
-    ]
-  }
+        selector: "enumMember",
+        format: ["PascalCase"],
+      },
+    ],
+  },
 };

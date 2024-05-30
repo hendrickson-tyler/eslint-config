@@ -1,17 +1,15 @@
 module.exports = {
-  "extends": [
-    "plugin:rxjs/recommended"
-  ],
-  "rules": {
+  extends: ["plugin:rxjs/recommended"],
+  rules: {
     "rxjs/finnish": [
       "error",
       {
-        "functions": false,
-        "methods": false,
-        "parameters": false,
-      }
+        functions: false,
+        methods: false,
+        parameters: false,
+      },
     ],
     "rxjs/no-compat": "error",
-    "rxjs/no-subject-value": "warn"
-  }
+    "rxjs/no-subject-value": "warn",
+  },
 };

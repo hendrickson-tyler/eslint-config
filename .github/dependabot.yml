@@ -13,8 +13,8 @@ updates:
       timezone: "US/Mountain"
     ignore:
       # Angular packages to be updated manually
-      - dependency-name: '@angular-eslint/*'
-        update-types: ['version-update:semver-major']
+      - dependency-name: "@angular-eslint/*"
+        update-types: ["version-update:semver-major"]
 
   # GitHub Actions
   - package-ecosystem: "github-actions"

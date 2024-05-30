@@ -1,8 +1,6 @@
 module.exports = {
-  "extends": [
-    "plugin:@angular-eslint/template/recommended"
-  ],
-  "rules": {
+  extends: ["plugin:@angular-eslint/template/recommended"],
+  rules: {
     "@angular-eslint/template/alt-text": "error",
     "@angular-eslint/template/elements-content": "error",
     "@angular-eslint/template/label-has-associated-control": "error",
@@ -14,5 +12,5 @@ module.exports = {
     "@angular-eslint/template/no-call-expression": "warn",
     "@angular-eslint/template/no-distracting-elements": "error",
     "@angular-eslint/template/no-positive-tabindex": "error",
-  }
+  },
 };

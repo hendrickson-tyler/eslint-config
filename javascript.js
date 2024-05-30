@@ -1,24 +1,22 @@
 module.exports = {
-  "extends": [
-    "eslint:recommended",
-    "plugin:jsdoc/recommended"
-  ],
-  "plugins": [
-    "jsdoc"
-  ],
-  "rules": {
-    "eqeqeq": "error",
-    "keyword-spacing": [2, { "before": true, "after": true }],
+  extends: ["eslint:recommended", "plugin:jsdoc/recommended"],
+  plugins: ["jsdoc"],
+  rules: {
+    eqeqeq: "error",
+    "keyword-spacing": [2, { before: true, after: true }],
     "lines-between-class-members": "error",
-    "max-len": ["error", {
-      "code": 140,
-      "tabWidth": 2,
-      "ignorePattern": "^\\s*import ",
-      "ignoreUrls": true,
-      "ignoreRegExpLiterals": true
-    }],
+    "max-len": [
+      "error",
+      {
+        code: 140,
+        tabWidth: 2,
+        ignorePattern: "^\\s*import ",
+        ignoreUrls: true,
+        ignoreRegExpLiterals: true,
+      },
+    ],
     "no-console": "error",
-    "semi": "error",
+    semi: "error",
     "jsdoc/check-alignment": "error",
     // "jsdoc/check-examples": "error", // TODO: re-enable this once fixed https://github.com/eslint/eslint/issues/14745
     "jsdoc/check-indentation": "error",
@@ -35,26 +33,29 @@ module.exports = {
     "jsdoc/no-types": "error",
     "jsdoc/require-description": "error",
     "jsdoc/require-description-complete-sentence": "error",
-    "jsdoc/require-jsdoc": ["error", {
-      publicOnly: false,
-      require: {
-        ClassDeclaration: true,
-        FunctionDeclaration: true,
-        MethodDefinition: true,
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        publicOnly: false,
+        require: {
+          ClassDeclaration: true,
+          FunctionDeclaration: true,
+          MethodDefinition: true,
+        },
+        contexts: [
+          {
+            context: "ClassProperty",
+            inlineCommentBlock: true,
+          },
+          {
+            context: "TSPropertySignature",
+            inlineCommentBlock: true,
+          },
+        ],
+        exemptEmptyFunctions: false,
+        checkConstructors: false,
       },
-      contexts: [
-        {
-          context: "ClassProperty",
-          inlineCommentBlock: true
-        },
-        {
-          context: "TSPropertySignature",
-          inlineCommentBlock: true
-        },
-      ],
-      exemptEmptyFunctions: false,
-      checkConstructors: false
-    }],
+    ],
     "jsdoc/require-param": "error",
     "jsdoc/require-param-description": "error",
     "jsdoc/require-param-name": "error",
@@ -64,7 +65,7 @@ module.exports = {
     "jsdoc/require-returns": "error",
     "jsdoc/require-returns-check": "error",
     "jsdoc/require-returns-description": "error",
-    "jsdoc/tag-lines": ["error", "any", { "startLines": 1 }],
+    "jsdoc/tag-lines": ["error", "any", { startLines: 1 }],
     "jsdoc/require-yields-check": "error",
-  }
+  },
 };

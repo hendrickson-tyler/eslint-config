@@ -1,8 +1,5 @@
 module.exports = {
-  "extends": [
-    "./angular.js",
-    "./nativescript.js",
-  ],
-  "plugins": [],
-  "rules": {}
+  extends: ["./angular.js", "./nativescript.js"],
+  plugins: [],
+  rules: {},
 };
