@@ -81,7 +81,7 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
 ```javascript
 "devDependencies": {
     ...
-    "@hendrickson-tyler/eslint-config": "^4.0.0",
+    "@hendrickson-tyler/eslint-config": "^18.0.0",
     ...
 }
 ```
