@@ -15,6 +15,13 @@ updates:
       # Angular packages to be updated manually
       - dependency-name: "@angular-eslint/*"
         update-types: ["version-update:semver-major"]
+    groups:
+      typescript-eslint:
+        patterns:
+          - '@typescript-eslint/*' # Update all TypeScript ESLint packages together
+      angular-eslint:
+        patterns:
+          - '@angular-eslint/*' # Update all Angular ESLint packages together
 
   # GitHub Actions
   - package-ecosystem: "github-actions"
