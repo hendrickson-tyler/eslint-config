@@ -18,9 +18,6 @@ Config files exist for the following use cases and are summarized below. You can
 - `angular-html` - Recommended template (HTML) rules for projects using Angular.
   - Used in conjunction with `@angular-eslint/template-parser`.
 - `rxjs` - Recommended rules for projects using the RxJS library.
-- `nativescript` - Recommended rules for vanilla NativeScript projects.
-- `nativescript-angular` - Recommended rules for NativeScript projects using Angular.
-  - Includes the rules from `nativescript`.
 
 ## Installation
 
