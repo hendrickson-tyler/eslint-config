@@ -12,6 +12,9 @@ updates:
       time: "09:00"
       timezone: "US/Mountain"
     ignore:
+      # TypeScript ESLint packages to be updated manually
+      - dependency-name: "@typescript-eslint/*"
+        update-types: ["version-update:semver-major"]
       # Angular packages to be updated manually
       - dependency-name: "@angular-eslint/*"
         update-types: ["version-update:semver-major"]
