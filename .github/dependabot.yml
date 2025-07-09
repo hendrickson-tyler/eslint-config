@@ -8,9 +8,9 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "US/Mountain"
+      interval: 'daily'
+      time: '23:00'
+      timezone: 'US/Mountain'
     ignore:
       # TypeScript ESLint packages to be updated manually
       - dependency-name: "@typescript-eslint/*"
@@ -30,6 +30,6 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "US/Mountain"
+      interval: 'daily'
+      time: '23:00'
+      timezone: 'US/Mountain'
