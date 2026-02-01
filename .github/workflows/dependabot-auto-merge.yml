@@ -2,6 +2,7 @@ name: Dependabot Auto Merge
 on: pull_request
 
 permissions:
+  contents: write
   pull-requests: write
 
 jobs:
@@ -22,23 +23,26 @@ jobs:
         id: check-auto-merge
         run: |
           echo "Version update type: ${{ steps.metadata.outputs.update-type }}"
-          if [[ "${{ steps.metadata.outputs.update-type }}" == "version-update:semver-minor" ]] || [[ "${{ steps.metadata.outputs.update-type }}" == "version-update:semver-patch" ]]; then
-            echo "approveAndMerge=true" >> $GITHUB_ENV
+          if [[ "${{ steps.metadata.outputs.update-type }}" =~ version-update:semver-(minor|patch) ]]; then
+            echo "approve_and_merge=true" >> "$GITHUB_OUTPUT"
+            echo "Will auto-approve & enable auto-merge"
           else
-            echo "approveAndMerge=false" >> $GITHUB_ENV
+            echo "approve_and_merge=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping auto-merge (not patch/minor)"
           fi
 
       # Approve the pull request
       - name: Approve pull request
-        if: env.approveAndMerge == 'true'
+        if: steps.check-auto-merge.outputs.approve_and_merge == 'true'
         run: gh pr review --approve "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
-          GH_TOKEN: ${{ secrets.DEPENDABOT_PAT }}
+          GH_TOKEN: ${{ secrets.DEPENDABOT_PAT }} # Needs to approve as code owner
 
-      # Add a comment to have Dependabot squash and merge the PR
-      - name: Dependabot squash and merge
-        if: env.approveAndMerge == 'true'
-        run: gh pr comment ${{ github.event.pull_request.html_url }} --body "@dependabot squash and merge"
+      # Set the PR to auto merge
+      - name: Set auto merge
+        if: steps.check-auto-merge.outputs.approve_and_merge == 'true'
+        run: gh pr merge "$PR_URL" --squash --auto
         env:
-          GH_TOKEN: ${{ secrets.DEPENDABOT_PAT }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
